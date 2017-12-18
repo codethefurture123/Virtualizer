@@ -1,0 +1,1222 @@
+2017/07/03 12:38:17 Requested recieved at 2017-07-03 12:38:17.0489827 -0400 EDT
+URL: /Proxy_CWB_LocationService_1303 
+Headers: [Accept-Encoding:[gzip, deflate, br] Accept-Language:[en-US,en;q=0.8] Postman-Token:[09c6414b-8b05-4462-18a3-1404f49a987c] Origin:[chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop] User-Agent:[Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36] Accept:[*/*] Connection:[keep-alive] Content-Length:[2489] Cache-Control:[no-cache] Content-Type:[text/xml]]
+Body: <?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <soapenv:Header>
+  <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" soapenv:actor="http://schemas.xmlsoap.org/soap/actor/next" soapenv:mustUnderstand="1">
+   <wsse:UsernameToken>
+    <wsse:Username>commwbusr</wsse:Username>
+    <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">Password1!</wsse:Password>
+   </wsse:UsernameToken>
+  </wsse:Security>
+  <ns1:requestHeader xmlns:ns1="http://xml.comcast.com/types" soapenv:actor="http://schemas.xmlsoap.org/soap/actor/next" soapenv:mustUnderstand="0">
+   <ns1:timestamp>2014-06-12T11:10:23.560Z</ns1:timestamp>
+   <ns1:sourceSystemId>ESP-WORKBENCH</ns1:sourceSystemId>
+   <ns1:sourceSystemUserId>Workbench</ns1:sourceSystemUserId>
+   <ns1:sourceServerId>server1</ns1:sourceServerId>
+   <ns1:trackingId>101</ns1:trackingId>
+  </ns1:requestHeader>
+ </soapenv:Header>
+ <soapenv:Body>
+  <standardizeAddressXfinity xmlns="http://xml.comcast.com/location/services">
+   <StandardizeAddressXfinity>
+    <ns2:addresses xmlns:ns2="http://xml.comcast.com/location/types">
+     <ns2:standardizeAddressXfinityAddressType>
+      <ns2:requestRefNum>0</ns2:requestRefNum>
+      <ns2:address>
+       <ns2:streetAddress>360 Douglas Dr</ns2:streetAddress>
+       <ns2:unitTypes>
+        <ns2:unitTypesType>
+         <ns2:unitSequence xsi:nil="true"/>
+         <ns2:unitValue/>
+        </ns2:unitTypesType>
+       </ns2:unitTypes>
+       <ns2:city>West Chester</ns2:city>
+       <ns2:state>PA</ns2:state>
+       <ns2:zip>19380</ns2:zip>
+      </ns2:address>
+     </ns2:standardizeAddressXfinityAddressType>
+    </ns2:addresses>
+    <ns3:requestedResults xmlns:ns3="http://xml.comcast.com/location/types">
+     <ns3:geography>false</ns3:geography>
+     <ns3:telephony>true</ns3:telephony>
+     <ns3:msag>false</ns3:msag>
+    </ns3:requestedResults>
+    <ns4:geocodingConstraints xmlns:ns4="http://xml.comcast.com/location/types">
+     <ns4:matchMode>exact</ns4:matchMode>
+     <ns4:returnCloseMatchesOnly>true</ns4:returnCloseMatchesOnly>
+    </ns4:geocodingConstraints>
+   </StandardizeAddressXfinity>
+  </standardizeAddressXfinity>
+ </soapenv:Body>
+</soapenv:Envelope>
+Served By Operation: standardizeAddressXfinity
+
+2017/07/03 12:38:17 Response sent at 2017-07-03 12:38:17.0599827 -0400 EDT
+Headers: [Content-Type:[text/xml]]
+Body: Sorry!,This request is not properly mapped to a response. Please check if the server is configured with a proper Xpath and condition value.
+
+2017/07/03 12:40:46 Requested recieved at 2017-07-03 12:40:46.5578922 -0400 EDT
+URL: /Proxy_CWB_LocationService_1303 
+Headers: [Origin:[chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop] User-Agent:[Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36] Content-Type:[text/xml] Accept:[*/*] Accept-Encoding:[gzip, deflate, br] Accept-Language:[en-US,en;q=0.8] Postman-Token:[13546938-2e89-fd3a-f51f-1291f042ad81] Cache-Control:[no-cache] Connection:[keep-alive] Content-Length:[2489]]
+Body: <?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <soapenv:Header>
+  <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" soapenv:actor="http://schemas.xmlsoap.org/soap/actor/next" soapenv:mustUnderstand="1">
+   <wsse:UsernameToken>
+    <wsse:Username>commwbusr</wsse:Username>
+    <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">Password1!</wsse:Password>
+   </wsse:UsernameToken>
+  </wsse:Security>
+  <ns1:requestHeader xmlns:ns1="http://xml.comcast.com/types" soapenv:actor="http://schemas.xmlsoap.org/soap/actor/next" soapenv:mustUnderstand="0">
+   <ns1:timestamp>2014-06-12T11:10:23.560Z</ns1:timestamp>
+   <ns1:sourceSystemId>ESP-WORKBENCH</ns1:sourceSystemId>
+   <ns1:sourceSystemUserId>Workbench</ns1:sourceSystemUserId>
+   <ns1:sourceServerId>server1</ns1:sourceServerId>
+   <ns1:trackingId>101</ns1:trackingId>
+  </ns1:requestHeader>
+ </soapenv:Header>
+ <soapenv:Body>
+  <standardizeAddressXfinity xmlns="http://xml.comcast.com/location/services">
+   <StandardizeAddressXfinity>
+    <ns2:addresses xmlns:ns2="http://xml.comcast.com/location/types">
+     <ns2:standardizeAddressXfinityAddressType>
+      <ns2:requestRefNum>0</ns2:requestRefNum>
+      <ns2:address>
+       <ns2:streetAddress>360 Douglas Dr</ns2:streetAddress>
+       <ns2:unitTypes>
+        <ns2:unitTypesType>
+         <ns2:unitSequence xsi:nil="true"/>
+         <ns2:unitValue/>
+        </ns2:unitTypesType>
+       </ns2:unitTypes>
+       <ns2:city>West Chester</ns2:city>
+       <ns2:state>PA</ns2:state>
+       <ns2:zip>19380</ns2:zip>
+      </ns2:address>
+     </ns2:standardizeAddressXfinityAddressType>
+    </ns2:addresses>
+    <ns3:requestedResults xmlns:ns3="http://xml.comcast.com/location/types">
+     <ns3:geography>false</ns3:geography>
+     <ns3:telephony>true</ns3:telephony>
+     <ns3:msag>false</ns3:msag>
+    </ns3:requestedResults>
+    <ns4:geocodingConstraints xmlns:ns4="http://xml.comcast.com/location/types">
+     <ns4:matchMode>exact</ns4:matchMode>
+     <ns4:returnCloseMatchesOnly>true</ns4:returnCloseMatchesOnly>
+    </ns4:geocodingConstraints>
+   </StandardizeAddressXfinity>
+  </standardizeAddressXfinity>
+ </soapenv:Body>
+</soapenv:Envelope>
+Served By Operation: standardizeAddressXfinity
+
+2017/07/03 12:40:46 Response sent at 2017-07-03 12:40:46.5718936 -0400 EDT
+Headers: [Content-Type:[text/xml]]
+Body: <env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <env:Header>
+      <typ:responseHeader xmlns:typ="http://xml.comcast.com/types">
+         <typ:timestamp>2014-06-16T06:56:24+00:00</typ:timestamp>
+         <typ:trackingId>101</typ:trackingId>
+      </typ:responseHeader>
+   </env:Header>
+   <env:Body>
+      <m:standardizeAddressXfinityResponse xmlns:m="http://xml.comcast.com/location/services">
+         <m:standardizeAddressXfinityReturn>
+            <typ:addresses xmlns:typ="http://xml.comcast.com/location/types">
+               <typ:standardizeAddressXfinityResponseItemType>
+                  <typ:requestRefNum>0</typ:requestRefNum>
+                  <typ:standardizedAddresses>
+                     <typ:standardizedAddressXfinityType>
+                        <typ:geocodedAddress>
+                           <typ:houseNumberPrefix xsi:nil="true"/>
+                           <typ:houseNumber>360</typ:houseNumber>
+                           <typ:houseNumberSuffix xsi:nil="true"/>
+                           <typ:streetPreDirection/>
+                           <typ:streetName>Douglas</typ:streetName>
+                           <typ:streetSuffix>Dr</typ:streetSuffix>
+                           <typ:streetPostDirection/>
+                           <typ:unitTypes xsi:nil="true"/>
+                           <typ:city>WEST CHESTER</typ:city>
+                           <typ:state>PA</typ:state>
+                           <typ:zipCode>
+                              <typ:zip5>19380</typ:zip5>
+                              <typ:zip4>1118</typ:zip4>
+                           </typ:zipCode>
+                           <typ:dwellingCode>NORMAL</typ:dwellingCode>
+                           <typ:streetSide>L</typ:streetSide>
+                           <typ:latitude>39.998663</typ:latitude>
+                           <typ:longitude>-75.628409</typ:longitude>
+                           <typ:geocodingPrecision>
+                              <typ:MatchMethod>SingleUniqueMatch</typ:MatchMethod>
+                              <typ:GeocodingPointLocation>InterpolatedStreetAddressPosition</typ:GeocodingPointLocation>
+                           </typ:geocodingPrecision>
+                           <typ:closeMatch>true</typ:closeMatch>
+                           <typ:urbanization xsi:nil="true"/>
+                           <typ:CensusBlock xsi:nil="true"/>
+                           <typ:CensusTract xsi:nil="true"/>
+                        </typ:geocodedAddress>
+                         <typ:geography>
+         					<typ:MinorCivilDivision>WEST WHITELAND</typ:MinorCivilDivision>
+        					<typ:PlaceName xsi:nil="true"/>
+         					<typ:FIPSCode>4202900000</typ:FIPSCode>
+         					<typ:VertexCode>390290000</typ:VertexCode>
+         					<typ:CountyName>Chester</typ:CountyName>
+        				</typ:geography>
+                        <typ:telephony>
+                           <typ:rateCenterCertification>Certified</typ:rateCenterCertification>
+                           <typ:rateCenterServiceable>
+                              <typ:serviceable>
+                                 <typ:string>CMS:Business</typ:string>
+                              </typ:serviceable>
+                           </typ:rateCenterServiceable>
+                           <typ:LATA>228</typ:LATA>
+                           <typ:LATAName>PHILADELPHIA PA</typ:LATAName>
+                           <typ:ILECName>VERIZON PENNSYLVANIA, INC.</typ:ILECName>
+                           <typ:PSAPAgency>CHESTER COUNTY DEPARTMENT OF EMERGENCY SERVICES</typ:PSAPAgency>
+                           <typ:PSAPId>5867</typ:PSAPId>
+                           <typ:rateCenterName>W CHESTER</typ:rateCenterName>
+                           <typ:TNOrderPool xsi:nil="true"/>
+                           <typ:wireCenter>WCHSPAWC</typ:wireCenter>
+                        </typ:telephony>
+                        <typ:msag xsi:nil="true"/>
+                     </typ:standardizedAddressXfinityType>
+                  </typ:standardizedAddresses>
+                  <typ:responseStatus/>
+               </typ:standardizeAddressXfinityResponseItemType>
+            </typ:addresses>
+         </m:standardizeAddressXfinityReturn>
+      </m:standardizeAddressXfinityResponse>
+   </env:Body>
+</env:Envelope>
+
+2017/07/03 12:41:50 Requested recieved at 2017-07-03 12:41:50.04224 -0400 EDT
+URL: /Proxy_CWB_LocationService_1303 
+Headers: [Connection:[keep-alive] Postman-Token:[9b087548-2662-fec6-121d-5208e501418c] Origin:[chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop] User-Agent:[Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36] Accept-Encoding:[gzip, deflate, br] Accept-Language:[en-US,en;q=0.8] Content-Length:[2489] Cache-Control:[no-cache] Content-Type:[text/xml] Accept:[*/*]]
+Body: <?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <soapenv:Header>
+  <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" soapenv:actor="http://schemas.xmlsoap.org/soap/actor/next" soapenv:mustUnderstand="1">
+   <wsse:UsernameToken>
+    <wsse:Username>commwbusr</wsse:Username>
+    <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">Password1!</wsse:Password>
+   </wsse:UsernameToken>
+  </wsse:Security>
+  <ns1:requestHeader xmlns:ns1="http://xml.comcast.com/types" soapenv:actor="http://schemas.xmlsoap.org/soap/actor/next" soapenv:mustUnderstand="0">
+   <ns1:timestamp>2014-06-12T11:10:23.560Z</ns1:timestamp>
+   <ns1:sourceSystemId>ESP-WORKBENCH</ns1:sourceSystemId>
+   <ns1:sourceSystemUserId>Workbench</ns1:sourceSystemUserId>
+   <ns1:sourceServerId>server1</ns1:sourceServerId>
+   <ns1:trackingId>101</ns1:trackingId>
+  </ns1:requestHeader>
+ </soapenv:Header>
+ <soapenv:Body>
+  <standardizeAddressXfinity xmlns="http://xml.comcast.com/location/services">
+   <StandardizeAddressXfinity>
+    <ns2:addresses xmlns:ns2="http://xml.comcast.com/location/types">
+     <ns2:standardizeAddressXfinityAddressType>
+      <ns2:requestRefNum>0</ns2:requestRefNum>
+      <ns2:address>
+       <ns2:streetAddress>360 Douglas Dr</ns2:streetAddress>
+       <ns2:unitTypes>
+        <ns2:unitTypesType>
+         <ns2:unitSequence xsi:nil="true"/>
+         <ns2:unitValue/>
+        </ns2:unitTypesType>
+       </ns2:unitTypes>
+       <ns2:city>West Chester</ns2:city>
+       <ns2:state>PA</ns2:state>
+       <ns2:zip>19380</ns2:zip>
+      </ns2:address>
+     </ns2:standardizeAddressXfinityAddressType>
+    </ns2:addresses>
+    <ns3:requestedResults xmlns:ns3="http://xml.comcast.com/location/types">
+     <ns3:geography>false</ns3:geography>
+     <ns3:telephony>true</ns3:telephony>
+     <ns3:msag>false</ns3:msag>
+    </ns3:requestedResults>
+    <ns4:geocodingConstraints xmlns:ns4="http://xml.comcast.com/location/types">
+     <ns4:matchMode>exact</ns4:matchMode>
+     <ns4:returnCloseMatchesOnly>true</ns4:returnCloseMatchesOnly>
+    </ns4:geocodingConstraints>
+   </StandardizeAddressXfinity>
+  </standardizeAddressXfinity>
+ </soapenv:Body>
+</soapenv:Envelope>
+Served By Operation: standardizeAddressXfinity
+
+2017/07/03 12:41:50 Response sent at 2017-07-03 12:41:50.0562414 -0400 EDT
+Headers: [Content-Type:[text/xml]]
+Body: <env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <env:Header>
+      <typ:responseHeader xmlns:typ="http://xml.comcast.com/types">
+         <typ:timestamp>2014-06-16T06:56:24+00:00</typ:timestamp>
+         <typ:trackingId>101</typ:trackingId>
+      </typ:responseHeader>
+   </env:Header>
+   <env:Body>
+      <m:standardizeAddressXfinityResponse xmlns:m="http://xml.comcast.com/location/services">
+         <m:standardizeAddressXfinityReturn>
+            <typ:addresses xmlns:typ="http://xml.comcast.com/location/types">
+               <typ:standardizeAddressXfinityResponseItemType>
+                  <typ:requestRefNum>0</typ:requestRefNum>
+                  <typ:standardizedAddresses>
+                     <typ:standardizedAddressXfinityType>
+                        <typ:geocodedAddress>
+                           <typ:houseNumberPrefix xsi:nil="true"/>
+                           <typ:houseNumber>360</typ:houseNumber>
+                           <typ:houseNumberSuffix xsi:nil="true"/>
+                           <typ:streetPreDirection/>
+                           <typ:streetName>Douglas</typ:streetName>
+                           <typ:streetSuffix>Dr</typ:streetSuffix>
+                           <typ:streetPostDirection/>
+                           <typ:unitTypes xsi:nil="true"/>
+                           <typ:city>WEST CHESTER</typ:city>
+                           <typ:state>PA</typ:state>
+                           <typ:zipCode>
+                              <typ:zip5>19380</typ:zip5>
+                              <typ:zip4>1118</typ:zip4>
+                           </typ:zipCode>
+                           <typ:dwellingCode>NORMAL</typ:dwellingCode>
+                           <typ:streetSide>L</typ:streetSide>
+                           <typ:latitude>39.998663</typ:latitude>
+                           <typ:longitude>-75.628409</typ:longitude>
+                           <typ:geocodingPrecision>
+                              <typ:MatchMethod>SingleUniqueMatch</typ:MatchMethod>
+                              <typ:GeocodingPointLocation>InterpolatedStreetAddressPosition</typ:GeocodingPointLocation>
+                           </typ:geocodingPrecision>
+                           <typ:closeMatch>true</typ:closeMatch>
+                           <typ:urbanization xsi:nil="true"/>
+                           <typ:CensusBlock xsi:nil="true"/>
+                           <typ:CensusTract xsi:nil="true"/>
+                        </typ:geocodedAddress>
+                         <typ:geography>
+         					<typ:MinorCivilDivision>WEST WHITELAND</typ:MinorCivilDivision>
+        					<typ:PlaceName xsi:nil="true"/>
+         					<typ:FIPSCode>4202900000</typ:FIPSCode>
+         					<typ:VertexCode>390290000</typ:VertexCode>
+         					<typ:CountyName>Chester</typ:CountyName>
+        				</typ:geography>
+                        <typ:telephony>
+                           <typ:rateCenterCertification>Certified</typ:rateCenterCertification>
+                           <typ:rateCenterServiceable>
+                              <typ:serviceable>
+                                 <typ:string>CMS:Business</typ:string>
+                              </typ:serviceable>
+                           </typ:rateCenterServiceable>
+                           <typ:LATA>228</typ:LATA>
+                           <typ:LATAName>PHILADELPHIA PA</typ:LATAName>
+                           <typ:ILECName>VERIZON PENNSYLVANIA, INC.</typ:ILECName>
+                           <typ:PSAPAgency>CHESTER COUNTY DEPARTMENT OF EMERGENCY SERVICES</typ:PSAPAgency>
+                           <typ:PSAPId>5867</typ:PSAPId>
+                           <typ:rateCenterName>W CHESTER</typ:rateCenterName>
+                           <typ:TNOrderPool xsi:nil="true"/>
+                           <typ:wireCenter>WCHSPAWC</typ:wireCenter>
+                        </typ:telephony>
+                        <typ:msag xsi:nil="true"/>
+                     </typ:standardizedAddressXfinityType>
+                  </typ:standardizedAddresses>
+                  <typ:responseStatus/>
+               </typ:standardizeAddressXfinityResponseItemType>
+            </typ:addresses>
+         </m:standardizeAddressXfinityReturn>
+      </m:standardizeAddressXfinityResponse>
+   </env:Body>
+</env:Envelope>
+
+2017/07/03 12:41:56 Requested recieved at 2017-07-03 12:41:56.2078565 -0400 EDT
+URL: /Proxy_CWB_LocationService_1303 
+Headers: [Content-Length:[2489] Postman-Token:[ff064685-faa6-320e-5be6-397eedc7fd26] Origin:[chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop] User-Agent:[Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36] Content-Type:[text/xml] Accept:[*/*] Connection:[keep-alive] Accept-Encoding:[gzip, deflate, br] Accept-Language:[en-US,en;q=0.8] Cache-Control:[no-cache]]
+Body: <?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <soapenv:Header>
+  <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" soapenv:actor="http://schemas.xmlsoap.org/soap/actor/next" soapenv:mustUnderstand="1">
+   <wsse:UsernameToken>
+    <wsse:Username>commwbusr</wsse:Username>
+    <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">Password1!</wsse:Password>
+   </wsse:UsernameToken>
+  </wsse:Security>
+  <ns1:requestHeader xmlns:ns1="http://xml.comcast.com/types" soapenv:actor="http://schemas.xmlsoap.org/soap/actor/next" soapenv:mustUnderstand="0">
+   <ns1:timestamp>2014-06-12T11:10:23.560Z</ns1:timestamp>
+   <ns1:sourceSystemId>ESP-WORKBENCH</ns1:sourceSystemId>
+   <ns1:sourceSystemUserId>Workbench</ns1:sourceSystemUserId>
+   <ns1:sourceServerId>server1</ns1:sourceServerId>
+   <ns1:trackingId>101</ns1:trackingId>
+  </ns1:requestHeader>
+ </soapenv:Header>
+ <soapenv:Body>
+  <standardizeAddressXfinity xmlns="http://xml.comcast.com/location/services">
+   <StandardizeAddressXfinity>
+    <ns2:addresses xmlns:ns2="http://xml.comcast.com/location/types">
+     <ns2:standardizeAddressXfinityAddressType>
+      <ns2:requestRefNum>0</ns2:requestRefNum>
+      <ns2:address>
+       <ns2:streetAddress>346 Douglas Dr</ns2:streetAddress>
+       <ns2:unitTypes>
+        <ns2:unitTypesType>
+         <ns2:unitSequence xsi:nil="true"/>
+         <ns2:unitValue/>
+        </ns2:unitTypesType>
+       </ns2:unitTypes>
+       <ns2:city>West Chester</ns2:city>
+       <ns2:state>PA</ns2:state>
+       <ns2:zip>19380</ns2:zip>
+      </ns2:address>
+     </ns2:standardizeAddressXfinityAddressType>
+    </ns2:addresses>
+    <ns3:requestedResults xmlns:ns3="http://xml.comcast.com/location/types">
+     <ns3:geography>false</ns3:geography>
+     <ns3:telephony>true</ns3:telephony>
+     <ns3:msag>false</ns3:msag>
+    </ns3:requestedResults>
+    <ns4:geocodingConstraints xmlns:ns4="http://xml.comcast.com/location/types">
+     <ns4:matchMode>exact</ns4:matchMode>
+     <ns4:returnCloseMatchesOnly>true</ns4:returnCloseMatchesOnly>
+    </ns4:geocodingConstraints>
+   </StandardizeAddressXfinity>
+  </standardizeAddressXfinity>
+ </soapenv:Body>
+</soapenv:Envelope>
+Served By Operation: standardizeAddressXfinity
+
+2017/07/03 12:41:56 Response sent at 2017-07-03 12:41:56.2138571 -0400 EDT
+Headers: [Content-Type:[text/xml]]
+Body: <env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <env:Header>
+      <typ:responseHeader xmlns:typ="http://xml.comcast.com/types">
+         <typ:timestamp>2014-06-16T06:57:14+00:00</typ:timestamp>
+         <typ:trackingId>101</typ:trackingId>
+      </typ:responseHeader>
+   </env:Header>
+   <env:Body>
+      <m:standardizeAddressXfinityResponse xmlns:m="http://xml.comcast.com/location/services">
+         <m:standardizeAddressXfinityReturn>
+            <typ:addresses xmlns:typ="http://xml.comcast.com/location/types">
+               <typ:standardizeAddressXfinityResponseItemType>
+                  <typ:requestRefNum>0</typ:requestRefNum>
+                  <typ:standardizedAddresses>
+                     <typ:standardizedAddressXfinityType>
+                        <typ:geocodedAddress>
+                           <typ:houseNumberPrefix xsi:nil="true"/>
+                           <typ:houseNumber>346</typ:houseNumber>
+                           <typ:houseNumberSuffix xsi:nil="true"/>
+                           <typ:streetPreDirection/>
+                           <typ:streetName>Douglas</typ:streetName>
+                           <typ:streetSuffix>Dr</typ:streetSuffix>
+                           <typ:streetPostDirection/>
+                           <typ:unitTypes xsi:nil="true"/>
+                           <typ:city>WEST CHESTER</typ:city>
+                           <typ:state>PA</typ:state>
+                           <typ:zipCode>
+                              <typ:zip5>19380</typ:zip5>
+                              <typ:zip4>1118</typ:zip4>
+                           </typ:zipCode>
+                           <typ:dwellingCode>NORMAL</typ:dwellingCode>
+                           <typ:streetSide>L</typ:streetSide>
+                           <typ:latitude>39.998666</typ:latitude>
+                           <typ:longitude>-75.628368</typ:longitude>
+                           <typ:geocodingPrecision>
+                              <typ:MatchMethod>SingleUniqueMatch</typ:MatchMethod>
+                              <typ:GeocodingPointLocation>InterpolatedStreetAddressPosition</typ:GeocodingPointLocation>
+                           </typ:geocodingPrecision>
+                           <typ:closeMatch>true</typ:closeMatch>
+                           <typ:urbanization xsi:nil="true"/>
+                           <typ:CensusBlock xsi:nil="true"/>
+                           <typ:CensusTract xsi:nil="true"/>
+                        </typ:geocodedAddress>
+                         <typ:geography>
+         					<typ:MinorCivilDivision>WEST WHITELAND</typ:MinorCivilDivision>
+         					<typ:PlaceName xsi:nil="true"/>
+         					<typ:FIPSCode>4202900000</typ:FIPSCode>
+         					<typ:VertexCode>390290000</typ:VertexCode>
+         					<typ:CountyName>Chester</typ:CountyName>
+        				</typ:geography>
+                        <typ:telephony>
+                           <typ:rateCenterCertification>Certified</typ:rateCenterCertification>
+                           <typ:rateCenterServiceable>
+                              <typ:serviceable>
+                                 <typ:string>CMS:Business</typ:string>
+                              </typ:serviceable>
+                           </typ:rateCenterServiceable>
+                           <typ:LATA>228</typ:LATA>
+                           <typ:LATAName>PHILADELPHIA PA</typ:LATAName>
+                           <typ:ILECName>VERIZON PENNSYLVANIA, INC.</typ:ILECName>
+                           <typ:PSAPAgency>CHESTER COUNTY DEPARTMENT OF EMERGENCY SERVICES</typ:PSAPAgency>
+                           <typ:PSAPId>5867</typ:PSAPId>
+                           <typ:rateCenterName>W CHESTER</typ:rateCenterName>
+                           <typ:TNOrderPool xsi:nil="true"/>
+                           <typ:wireCenter>WCHSPAWC</typ:wireCenter>
+                        </typ:telephony>
+                        <typ:msag xsi:nil="true"/>
+                     </typ:standardizedAddressXfinityType>
+                  </typ:standardizedAddresses>
+                  <typ:responseStatus/>
+               </typ:standardizeAddressXfinityResponseItemType>
+            </typ:addresses>
+         </m:standardizeAddressXfinityReturn>
+      </m:standardizeAddressXfinityResponse>
+   </env:Body>
+</env:Envelope>
+
+2017/07/03 12:42:03 Requested recieved at 2017-07-03 12:42:03.2895646 -0400 EDT
+URL: /Proxy_CWB_LocationService_1303 
+Headers: [Content-Length:[2487] Postman-Token:[838f2728-e9e5-f296-4f5d-552f7334c952] User-Agent:[Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36] Accept:[*/*] Accept-Encoding:[gzip, deflate, br] Accept-Language:[en-US,en;q=0.8] Connection:[keep-alive] Cache-Control:[no-cache] Origin:[chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop] Content-Type:[text/xml]]
+Body: <?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <soapenv:Header>
+  <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" soapenv:actor="http://schemas.xmlsoap.org/soap/actor/next" soapenv:mustUnderstand="1">
+   <wsse:UsernameToken>
+    <wsse:Username>commwbusr</wsse:Username>
+    <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">Password1!</wsse:Password>
+   </wsse:UsernameToken>
+  </wsse:Security>
+  <ns1:requestHeader xmlns:ns1="http://xml.comcast.com/types" soapenv:actor="http://schemas.xmlsoap.org/soap/actor/next" soapenv:mustUnderstand="0">
+   <ns1:timestamp>2014-06-12T11:10:23.560Z</ns1:timestamp>
+   <ns1:sourceSystemId>ESP-WORKBENCH</ns1:sourceSystemId>
+   <ns1:sourceSystemUserId>Workbench</ns1:sourceSystemUserId>
+   <ns1:sourceServerId>server1</ns1:sourceServerId>
+   <ns1:trackingId>101</ns1:trackingId>
+  </ns1:requestHeader>
+ </soapenv:Header>
+ <soapenv:Body>
+  <standardizeAddressXfinity xmlns="http://xml.comcast.com/location/services">
+   <StandardizeAddressXfinity>
+    <ns2:addresses xmlns:ns2="http://xml.comcast.com/location/types">
+     <ns2:standardizeAddressXfinityAddressType>
+      <ns2:requestRefNum>0</ns2:requestRefNum>
+      <ns2:address>
+       <ns2:streetAddress>346 Apple Dr</ns2:streetAddress>
+       <ns2:unitTypes>
+        <ns2:unitTypesType>
+         <ns2:unitSequence xsi:nil="true"/>
+         <ns2:unitValue/>
+        </ns2:unitTypesType>
+       </ns2:unitTypes>
+       <ns2:city>West Chester</ns2:city>
+       <ns2:state>PA</ns2:state>
+       <ns2:zip>19380</ns2:zip>
+      </ns2:address>
+     </ns2:standardizeAddressXfinityAddressType>
+    </ns2:addresses>
+    <ns3:requestedResults xmlns:ns3="http://xml.comcast.com/location/types">
+     <ns3:geography>false</ns3:geography>
+     <ns3:telephony>true</ns3:telephony>
+     <ns3:msag>false</ns3:msag>
+    </ns3:requestedResults>
+    <ns4:geocodingConstraints xmlns:ns4="http://xml.comcast.com/location/types">
+     <ns4:matchMode>exact</ns4:matchMode>
+     <ns4:returnCloseMatchesOnly>true</ns4:returnCloseMatchesOnly>
+    </ns4:geocodingConstraints>
+   </StandardizeAddressXfinity>
+  </standardizeAddressXfinity>
+ </soapenv:Body>
+</soapenv:Envelope>
+Served By Operation: standardizeAddressXfinity
+
+2017/07/03 12:42:03 Response sent at 2017-07-03 12:42:03.2975654 -0400 EDT
+Headers: [Content-Type:[text/xml]]
+Body: <env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <env:Header>
+      <typ:responseHeader xmlns:typ="http://xml.comcast.com/types">
+         <typ:timestamp>2014-06-16T06:57:14+00:00</typ:timestamp>
+         <typ:trackingId>101</typ:trackingId>
+      </typ:responseHeader>
+   </env:Header>
+   <env:Body>
+      <m:standardizeAddressXfinityResponse xmlns:m="http://xml.comcast.com/location/services">
+         <m:standardizeAddressXfinityReturn>
+            <typ:addresses xmlns:typ="http://xml.comcast.com/location/types">
+               <typ:standardizeAddressXfinityResponseItemType>
+                  <typ:requestRefNum>0</typ:requestRefNum>
+                  <typ:standardizedAddresses>
+                     <typ:standardizedAddressXfinityType>
+                        <typ:geocodedAddress>
+                           <typ:houseNumberPrefix xsi:nil="true"/>
+                           <typ:houseNumber>346</typ:houseNumber>
+                           <typ:houseNumberSuffix xsi:nil="true"/>
+                           <typ:streetPreDirection/>
+                           <typ:streetName>Apple</typ:streetName>
+                           <typ:streetSuffix>Dr</typ:streetSuffix>
+                           <typ:streetPostDirection/>
+                           <typ:unitTypes xsi:nil="true"/>
+                           <typ:city>WEST CHESTER</typ:city>
+                           <typ:state>PA</typ:state>
+                           <typ:zipCode>
+                              <typ:zip5>19380</typ:zip5>
+                              <typ:zip4>1118</typ:zip4>
+                           </typ:zipCode>
+                           <typ:dwellingCode>NORMAL</typ:dwellingCode>
+                           <typ:streetSide>L</typ:streetSide>
+                           <typ:latitude>39.998666</typ:latitude>
+                           <typ:longitude>-75.628368</typ:longitude>
+                           <typ:geocodingPrecision>
+                              <typ:MatchMethod>SingleUniqueMatch</typ:MatchMethod>
+                              <typ:GeocodingPointLocation>InterpolatedStreetAddressPosition</typ:GeocodingPointLocation>
+                           </typ:geocodingPrecision>
+                           <typ:closeMatch>true</typ:closeMatch>
+                           <typ:urbanization xsi:nil="true"/>
+                           <typ:CensusBlock xsi:nil="true"/>
+                           <typ:CensusTract xsi:nil="true"/>
+                        </typ:geocodedAddress>
+                         <typ:geography>
+         					<typ:MinorCivilDivision>WEST WHITELAND</typ:MinorCivilDivision>
+         					<typ:PlaceName xsi:nil="true"/>
+         					<typ:FIPSCode>4202900000</typ:FIPSCode>
+         					<typ:VertexCode>390290000</typ:VertexCode>
+         					<typ:CountyName>Chester</typ:CountyName>
+        				</typ:geography>
+                        <typ:telephony>
+                           <typ:rateCenterCertification>Certified</typ:rateCenterCertification>
+                           <typ:rateCenterServiceable>
+                              <typ:serviceable>
+                                 <typ:string>CMS:Business</typ:string>
+                              </typ:serviceable>
+                           </typ:rateCenterServiceable>
+                           <typ:LATA>228</typ:LATA>
+                           <typ:LATAName>PHILADELPHIA PA</typ:LATAName>
+                           <typ:ILECName>VERIZON PENNSYLVANIA, INC.</typ:ILECName>
+                           <typ:PSAPAgency>CHESTER COUNTY DEPARTMENT OF EMERGENCY SERVICES</typ:PSAPAgency>
+                           <typ:PSAPId>5867</typ:PSAPId>
+                           <typ:rateCenterName>W CHESTER</typ:rateCenterName>
+                           <typ:TNOrderPool xsi:nil="true"/>
+                           <typ:wireCenter>WCHSPAWC</typ:wireCenter>
+                        </typ:telephony>
+                        <typ:msag xsi:nil="true"/>
+                     </typ:standardizedAddressXfinityType>
+                  </typ:standardizedAddresses>
+                  <typ:responseStatus/>
+               </typ:standardizeAddressXfinityResponseItemType>
+            </typ:addresses>
+         </m:standardizeAddressXfinityReturn>
+      </m:standardizeAddressXfinityResponse>
+   </env:Body>
+</env:Envelope>
+
+2017/10/27 11:03:39 Requested recieved at 2017-10-27 11:03:39.3571903 -0400 EDT
+URL: /PolarisService 
+Headers: [Cache-Control:[no-cache] Origin:[chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop] Postman-Token:[cbf557c5-8ae2-8ead-fbab-9181b14dde11] Content-Type:[text/xml] Accept:[*/*] Accept-Encoding:[gzip, deflate] Connection:[keep-alive] Content-Length:[6635] Accept-Language:[en-US,en;q=0.8] User-Agent:[Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36]]
+Body: <?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <soapenv:Header>
+  <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" soapenv:actor="" soapenv:mustUnderstand="1">
+   <wsse:UsernameToken>
+    <wsse:Username>cpquser2</wsse:Username>
+    <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">cpquser123</wsse:Password>
+   </wsse:UsernameToken>
+  </wsse:Security>
+  <ns1:requestHeader xmlns:ns1="http://xml.comcast.com/types" soapenv:actor="http://schemas.xmlsoap.org/soap/actor/next" soapenv:mustUnderstand="0">
+   <ns1:timestamp>2016-11-07T12:54:45.333Z</ns1:timestamp>
+   <ns1:sourceSystemId>Workbench</ns1:sourceSystemId>
+   <ns1:sourceSystemUserId>sa</ns1:sourceSystemUserId>
+   <ns1:sourceServerId>Workbench</ns1:sourceServerId>
+   <ns1:trackingId>V0I6OTAzNTI1MTQ3</ns1:trackingId>
+  </ns1:requestHeader>
+ </soapenv:Header>
+ <soapenv:Body>
+ <MultipleOutputs xmlns="http://xml.comcast.com/survey/services">
+   <surveyRequest>
+    <ns2:address xmlns:ns2="http://xml.comcast.com/survey/types">
+     <ns3:streetAddress xmlns:ns3="http://xml.comcast.com/common/types">13203 FRY RD</ns3:streetAddress>
+     <ns4:streetAddress2 xmlns:ns4="http://xml.comcast.com/common/types">APT jfhdfg</ns4:streetAddress2>
+     <ns5:zipCode xmlns:ns5="http://xml.comcast.com/common/types">77433</ns5:zipCode>
+     <ns6:city xmlns:ns6="http://xml.comcast.com/common/types">CYPRESS</ns6:city>
+     <ns7:state xmlns:ns7="http://xml.comcast.com/common/types">TX</ns7:state>
+     <ns8:country xmlns:ns8="http://xml.comcast.com/common/types">US</ns8:country>
+     <ns9:market xmlns:ns9="http://xml.comcast.com/commercial/types">HOUSTON</ns9:market>
+     <ns10:region xmlns:ns10="http://xml.comcast.com/commercial/types">HOUSTON</ns10:region>
+     <ns11:addressId xmlns:ns11="http://xml.comcast.com/commercial/types">1075299525</ns11:addressId>
+    </ns2:address>
+    <ns12:opportunityDetails xmlns:ns12="http://xml.comcast.com/survey/types">
+     <ns13:opportunityId xmlns:ns13="http://xml.comcast.com/commercial/types">15027999</ns13:opportunityId>
+     <ns14:associatedSiteReferences xmlns:ns14="http://xml.comcast.com/commercial/types">
+      <ns14:string/>
+     </ns14:associatedSiteReferences>
+     <ns15:isParentOpportunity xmlns:ns15="http://xml.comcast.com/commercial/types">true</ns15:isParentOpportunity>
+    </ns12:opportunityDetails>
+    <ns16:transportType xmlns:ns16="http://xml.comcast.com/survey/types">COAX</ns16:transportType>
+    <ns17:surveyType xmlns:ns17="http://xml.comcast.com/survey/types">Site Survey</ns17:surveyType>
+    <ns18:surveyRequestType xmlns:ns18="http://xml.comcast.com/survey/types">Pre-Order</ns18:surveyRequestType>
+    <ns19:surveyEntireBuilding xmlns:ns19="http://xml.comcast.com/survey/types">false</ns19:surveyEntireBuilding>
+    <ns20:accountId xmlns:ns20="http://xml.comcast.com/survey/types">901076555</ns20:accountId>
+    <ns21:accountName xmlns:ns21="http://xml.comcast.com/survey/types">Anjjbgbgh</ns21:accountName>
+    <ns22:personContacts xmlns:ns22="http://xml.comcast.com/survey/types">
+     <ns22:personContact>
+      <ns23:contactId xmlns:ns23="http://xml.comcast.com/commercial/types">1075022397</ns23:contactId>
+      <ns24:name xmlns:ns24="http://xml.comcast.com/commercial/types">
+       <ns25:firstName xmlns:ns25="http://xml.comcast.com/common/types">Adfdfgfg</ns25:firstName>
+       <ns26:lastName xmlns:ns26="http://xml.comcast.com/common/types">Ddffgf</ns26:lastName>
+       <ns27:displayName xmlns:ns27="http://xml.comcast.com/common/types">Adfdfgfg Ddffgf</ns27:displayName>
+      </ns24:name>
+      <ns28:email xmlns:ns28="http://xml.comcast.com/commercial/types">Arpan_mandal@comcast.com</ns28:email>
+      <ns29:phone xmlns:ns29="http://xml.comcast.com/commercial/types">
+       <ns29:commercialTelephoneNumber>
+        <ns30:phoneNumber xmlns:ns30="http://xml.comcast.com/common/types">8888888888</ns30:phoneNumber>
+        <ns31:extension xmlns:ns31="http://xml.comcast.com/common/types">88888</ns31:extension>
+       </ns29:commercialTelephoneNumber>
+      </ns29:phone>
+     </ns22:personContact>
+    </ns22:personContacts>
+    <ns32:productCategory xmlns:ns32="http://xml.comcast.com/survey/types">
+     <ns32:productCategory>DATA</ns32:productCategory>
+    </ns32:productCategory>
+    <ns33:isRequestorConfirmationRequired xmlns:ns33="http://xml.comcast.com/survey/types">true</ns33:isRequestorConfirmationRequired>
+    <ns34:productReference xmlns:ns34="http://xml.comcast.com/survey/types">
+     <ns34:productReference xsi:type="ns34:DataProduct">
+      <ns34:vertical>Standard</ns34:vertical>
+      <ns34:productType>BI</ns34:productType>
+     </ns34:productReference>
+    </ns34:productReference>
+    <ns35:correlationId xmlns:ns35="http://xml.comcast.com/survey/types">12345678912Demo</ns35:correlationId>
+    <ns36:site xmlns:ns36="http://xml.comcast.com/survey/types">
+     <ns37:siteId xmlns:ns37="http://xml.comcast.com/commercial/types">10265372</ns37:siteId>
+     <ns38:siteName xmlns:ns38="http://xml.comcast.com/commercial/types">AKhjfgffg</ns38:siteName>
+     <ns39:siteType xmlns:ns39="http://xml.comcast.com/commercial/types">RESI_MULTI_TENANT</ns39:siteType>
+     <ns40:associatedAddressReferences xmlns:ns40="http://xml.comcast.com/commercial/types">1075299525</ns40:associatedAddressReferences>
+     <ns41:associatedContactRoleReferences xmlns:ns41="http://xml.comcast.com/commercial/types">
+      <ns41:commercialContactRole>
+       <ns41:contactId>1075022397</ns41:contactId>
+       <ns41:role/>
+      </ns41:commercialContactRole>
+     </ns41:associatedContactRoleReferences>
+     <ns42:siteDetails xmlns:ns42="http://xml.comcast.com/commercial/types">
+      <ns42:corpDetail>
+       <ns42:corpId>87777000-HOUSTON</ns42:corpId>
+      </ns42:corpDetail>
+     </ns42:siteDetails>
+    </ns36:site>
+    <ns43:salesChannel xmlns:ns43="http://xml.comcast.com/survey/types">Workbench</ns43:salesChannel>
+    <ns44:surveyAttribute xmlns:ns44="http://xml.comcast.com/survey/types">
+     <ns45:key xmlns:ns45="http://xml.comcast.com/commercial/types">ADDITIONAL_USER_ROLE</ns45:key>
+     <ns46:value xmlns:ns46="http://xml.comcast.com/commercial/types">POLARIS_USER</ns46:value>
+    </ns44:surveyAttribute>
+   </surveyRequest>
+  </MultipleOutputs>
+ </soapenv:Body>
+</soapenv:Envelope>
+Served By Operation: MultipleOutputs
+
+2017/10/27 11:04:19 Requested recieved at 2017-10-27 11:04:19.8152357 -0400 EDT
+URL: /PolarisService 
+Headers: [Origin:[chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop] Accept:[*/*] Connection:[keep-alive] Cache-Control:[no-cache] User-Agent:[Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36] Postman-Token:[c6396729-8f65-d900-c627-bc729b0616f6] Content-Type:[text/xml] Accept-Encoding:[gzip, deflate, br] Accept-Language:[en-US,en;q=0.8] Content-Length:[6635]]
+Body: <?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <soapenv:Header>
+  <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" soapenv:actor="" soapenv:mustUnderstand="1">
+   <wsse:UsernameToken>
+    <wsse:Username>cpquser2</wsse:Username>
+    <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">cpquser123</wsse:Password>
+   </wsse:UsernameToken>
+  </wsse:Security>
+  <ns1:requestHeader xmlns:ns1="http://xml.comcast.com/types" soapenv:actor="http://schemas.xmlsoap.org/soap/actor/next" soapenv:mustUnderstand="0">
+   <ns1:timestamp>2016-11-07T12:54:45.333Z</ns1:timestamp>
+   <ns1:sourceSystemId>Workbench</ns1:sourceSystemId>
+   <ns1:sourceSystemUserId>sa</ns1:sourceSystemUserId>
+   <ns1:sourceServerId>Workbench</ns1:sourceServerId>
+   <ns1:trackingId>V0I6OTAzNTI1MTQ3</ns1:trackingId>
+  </ns1:requestHeader>
+ </soapenv:Header>
+ <soapenv:Body>
+ <MultipleOutputs xmlns="http://xml.comcast.com/survey/services">
+   <surveyRequest>
+    <ns2:address xmlns:ns2="http://xml.comcast.com/survey/types">
+     <ns3:streetAddress xmlns:ns3="http://xml.comcast.com/common/types">13203 FRY RD</ns3:streetAddress>
+     <ns4:streetAddress2 xmlns:ns4="http://xml.comcast.com/common/types">APT jfhdfg</ns4:streetAddress2>
+     <ns5:zipCode xmlns:ns5="http://xml.comcast.com/common/types">77433</ns5:zipCode>
+     <ns6:city xmlns:ns6="http://xml.comcast.com/common/types">CYPRESS</ns6:city>
+     <ns7:state xmlns:ns7="http://xml.comcast.com/common/types">TX</ns7:state>
+     <ns8:country xmlns:ns8="http://xml.comcast.com/common/types">US</ns8:country>
+     <ns9:market xmlns:ns9="http://xml.comcast.com/commercial/types">HOUSTON</ns9:market>
+     <ns10:region xmlns:ns10="http://xml.comcast.com/commercial/types">HOUSTON</ns10:region>
+     <ns11:addressId xmlns:ns11="http://xml.comcast.com/commercial/types">1075299525</ns11:addressId>
+    </ns2:address>
+    <ns12:opportunityDetails xmlns:ns12="http://xml.comcast.com/survey/types">
+     <ns13:opportunityId xmlns:ns13="http://xml.comcast.com/commercial/types">15027999</ns13:opportunityId>
+     <ns14:associatedSiteReferences xmlns:ns14="http://xml.comcast.com/commercial/types">
+      <ns14:string/>
+     </ns14:associatedSiteReferences>
+     <ns15:isParentOpportunity xmlns:ns15="http://xml.comcast.com/commercial/types">true</ns15:isParentOpportunity>
+    </ns12:opportunityDetails>
+    <ns16:transportType xmlns:ns16="http://xml.comcast.com/survey/types">COAX</ns16:transportType>
+    <ns17:surveyType xmlns:ns17="http://xml.comcast.com/survey/types">Site Survey</ns17:surveyType>
+    <ns18:surveyRequestType xmlns:ns18="http://xml.comcast.com/survey/types">Pre-Order</ns18:surveyRequestType>
+    <ns19:surveyEntireBuilding xmlns:ns19="http://xml.comcast.com/survey/types">false</ns19:surveyEntireBuilding>
+    <ns20:accountId xmlns:ns20="http://xml.comcast.com/survey/types">901076555</ns20:accountId>
+    <ns21:accountName xmlns:ns21="http://xml.comcast.com/survey/types">Anjjbgbgh</ns21:accountName>
+    <ns22:personContacts xmlns:ns22="http://xml.comcast.com/survey/types">
+     <ns22:personContact>
+      <ns23:contactId xmlns:ns23="http://xml.comcast.com/commercial/types">1075022397</ns23:contactId>
+      <ns24:name xmlns:ns24="http://xml.comcast.com/commercial/types">
+       <ns25:firstName xmlns:ns25="http://xml.comcast.com/common/types">Adfdfgfg</ns25:firstName>
+       <ns26:lastName xmlns:ns26="http://xml.comcast.com/common/types">Ddffgf</ns26:lastName>
+       <ns27:displayName xmlns:ns27="http://xml.comcast.com/common/types">Adfdfgfg Ddffgf</ns27:displayName>
+      </ns24:name>
+      <ns28:email xmlns:ns28="http://xml.comcast.com/commercial/types">Arpan_mandal@comcast.com</ns28:email>
+      <ns29:phone xmlns:ns29="http://xml.comcast.com/commercial/types">
+       <ns29:commercialTelephoneNumber>
+        <ns30:phoneNumber xmlns:ns30="http://xml.comcast.com/common/types">8888888888</ns30:phoneNumber>
+        <ns31:extension xmlns:ns31="http://xml.comcast.com/common/types">88888</ns31:extension>
+       </ns29:commercialTelephoneNumber>
+      </ns29:phone>
+     </ns22:personContact>
+    </ns22:personContacts>
+    <ns32:productCategory xmlns:ns32="http://xml.comcast.com/survey/types">
+     <ns32:productCategory>DATA</ns32:productCategory>
+    </ns32:productCategory>
+    <ns33:isRequestorConfirmationRequired xmlns:ns33="http://xml.comcast.com/survey/types">true</ns33:isRequestorConfirmationRequired>
+    <ns34:productReference xmlns:ns34="http://xml.comcast.com/survey/types">
+     <ns34:productReference xsi:type="ns34:DataProduct">
+      <ns34:vertical>Standard</ns34:vertical>
+      <ns34:productType>BI</ns34:productType>
+     </ns34:productReference>
+    </ns34:productReference>
+    <ns35:correlationId xmlns:ns35="http://xml.comcast.com/survey/types">12345678912Demo</ns35:correlationId>
+    <ns36:site xmlns:ns36="http://xml.comcast.com/survey/types">
+     <ns37:siteId xmlns:ns37="http://xml.comcast.com/commercial/types">10265372</ns37:siteId>
+     <ns38:siteName xmlns:ns38="http://xml.comcast.com/commercial/types">AKhjfgffg</ns38:siteName>
+     <ns39:siteType xmlns:ns39="http://xml.comcast.com/commercial/types">RESI_MULTI_TENANT</ns39:siteType>
+     <ns40:associatedAddressReferences xmlns:ns40="http://xml.comcast.com/commercial/types">1075299525</ns40:associatedAddressReferences>
+     <ns41:associatedContactRoleReferences xmlns:ns41="http://xml.comcast.com/commercial/types">
+      <ns41:commercialContactRole>
+       <ns41:contactId>1075022397</ns41:contactId>
+       <ns41:role/>
+      </ns41:commercialContactRole>
+     </ns41:associatedContactRoleReferences>
+     <ns42:siteDetails xmlns:ns42="http://xml.comcast.com/commercial/types">
+      <ns42:corpDetail>
+       <ns42:corpId>87777000-HOUSTON</ns42:corpId>
+      </ns42:corpDetail>
+     </ns42:siteDetails>
+    </ns36:site>
+    <ns43:salesChannel xmlns:ns43="http://xml.comcast.com/survey/types">Workbench</ns43:salesChannel>
+    <ns44:surveyAttribute xmlns:ns44="http://xml.comcast.com/survey/types">
+     <ns45:key xmlns:ns45="http://xml.comcast.com/commercial/types">ADDITIONAL_USER_ROLE</ns45:key>
+     <ns46:value xmlns:ns46="http://xml.comcast.com/commercial/types">POLARIS_USER</ns46:value>
+    </ns44:surveyAttribute>
+   </surveyRequest>
+  </MultipleOutputs>
+ </soapenv:Body>
+</soapenv:Envelope>
+Served By Operation: MultipleOutputs
+
+2017/10/27 11:04:38 Requested recieved at 2017-10-27 11:04:38.8661406 -0400 EDT
+URL: /InventoryService 
+Headers: [Content-Length:[2460] Origin:[chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop] Postman-Token:[4d0f6eaf-f441-49c4-bc70-8cbd6ed1121d] Accept:[*/*] Accept-Language:[en-US,en;q=0.8] Connection:[keep-alive] User-Agent:[Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36] Cache-Control:[no-cache] Content-Type:[text/xml] Accept-Encoding:[gzip, deflate, br]]
+Body: <soapenv:Envelope
+ xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <soapenv:Header>
+  <ns1:Security
+   soapenv:actor="http://schemas.xmlsoap.org/soap/actor/next"
+   soapenv:mustUnderstand="0"
+    xmlns:ns1="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+   <ns1:UsernameToken
+    soapenv:actor="http://schemas.xmlsoap.org/soap/actor/next"
+     soapenv:mustUnderstand="0">
+    <ns1:Username
+     soapenv:actor="http://schemas.xmlsoap.org/soap/actor/next"
+     soapenv:mustUnderstand="0">commwbusr</ns1:Username>
+    <ns1:Password
+     soapenv:actor="http://schemas.xmlsoap.org/soap/actor/next"
+   soapenv:mustUnderstand="0">Password1!</ns1:Password>
+   </ns1:UsernameToken>
+  </ns1:Security>
+  <ns2:requestHeader
+   soapenv:actor="http://schemas.xmlsoap.org/soap/actor/next"
+   soapenv:mustUnderstand="0"
+   xmlns:ns2="http://xml.comcast.com/types">
+   <ns2:timestamp>2017-02-02T17:28:33.807Z</ns2:timestamp>
+   <ns2:sourceSystemId>ESP-WORKBENCH</ns2:sourceSystemId>
+   <ns2:sourceSystemUserId>epcuser</ns2:sourceSystemUserId>
+   <ns2:sourceServerId>server1</ns2:sourceServerId>
+   <ns2:trackingId>101</ns2:trackingId>
+  </ns2:requestHeader>
+ </soapenv:Header>
+ <soapenv:Body>
+  <validateItem
+     xmlns="http://xml.comcast.com/inventory/services">
+   <request>
+    <ns3:itemsToValidate
+      xmlns:ns3="http://xml.comcast.com/inventory/types">
+     <ns3:item
+      xsi:type="ns3:TelephoneNumberItem">
+      <ns3:telephoneNumber>4402023330</ns3:telephoneNumber>
+     </ns3:item>
+     <ns3:item
+      xsi:type="ns3:TelephoneNumberItem">
+      <ns3:telephoneNumber>4402023331</ns3:telephoneNumber>
+     </ns3:item>
+      <ns3:item
+      xsi:type="ns3:TelephoneNumberItem">
+      <ns3:telephoneNumber>4402023332</ns3:telephoneNumber>
+     </ns3:item>
+      <ns3:item
+      xsi:type="ns3:TelephoneNumberItem">
+      <ns3:telephoneNumber>4402023333</ns3:telephoneNumber>
+     </ns3:item>
+    </ns3:itemsToValidate>
+    <ns4:location
+     xmlns:ns4="http://xml.comcast.com/inventory/types">
+     <ns4:rateCenter>RCFPORT</ns4:rateCenter>
+     <ns4:state>100</ns4:state>
+    </ns4:location>
+    <ns5:orderType xmlns:ns5="http://xml.comcast.com/inventory/types">SYMPHONY</ns5:orderType>
+   </request>
+  </validateItem>
+ </soapenv:Body>
+</soapenv:Envelope>
+Served By Operation: validateItem
+
+2017/10/27 11:04:38 Response sent at 2017-10-27 11:04:38.8721412 -0400 EDT
+Headers: [Content-Type:[text/xml]]
+Body: <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><SOAP-ENV:Header><SOAP-ENV:Header><typ:responseHeader xmlns:typ="http://xml.comcast.com/types"><typ:timestamp>2012-01-19T21:43:28-05:00</typ:timestamp><typ:trackingId>101</typ:trackingId>
+				</typ:responseHeader> </SOAP-ENV:Header></SOAP-ENV:Header><SOAP-ENV:Body><validateItemResponse xmlns="http://xml.comcast.com/inventory/services"><validateItemReturn><ns1:validatedForCustomer xmlns:ns1="http://xml.comcast.com/inventory/types"/><typ:items xmlns:typ="http://xml.comcast.com/inventory/types"><typ:item xsi:type="typ:TelephoneNumberItem"><typ:location xsi:nil="true"/><typ:reservedForCustomer xsi:nil="true"/><typ:type xsi:nil="true"/><typ:assignedToCustomer xsi:nil="true"/><typ:market xsi:nil="true"/><typ:configuration xsi:nil="true"/><typ:id><typ:id>NDQwMjA0MTk0MQ==</typ:id></typ:id><typ:errorCode xsi:nil="true"/><typ:errorMessage xsi:nil="true"/><typ:requestId xsi:nil="true"/><typ:lineType xsi:nil="true"/><typ:disconnectReason xsi:nil="true"/><typ:clliCode xsi:nil="true"/><typ:nativeFlag>true</typ:nativeFlag><typ:telephoneNumber>4402023330</typ:telephoneNumber><typ:portEligible>true</typ:portEligible><typ:transferEligible xsi:nil="true"/><typ:dispositionHistory xsi:nil="true"/><typ:portStatus xsi:nil="true"/><typ:originalCarrier xsi:nil="true"/></typ:item><typ:item xsi:type="typ:TelephoneNumberItem"><typ:location xsi:nil="true"/><typ:reservedForCustomer xsi:nil="true"/><typ:type xsi:nil="true"/><typ:assignedToCustomer xsi:nil="true"/><typ:market xsi:nil="true"/><typ:configuration xsi:nil="true"/><typ:id><typ:id>NDQwMjA0MTk0MQ==</typ:id></typ:id><typ:errorCode xsi:nil="true"/><typ:errorMessage xsi:nil="true"/><typ:requestId xsi:nil="true"/><typ:lineType xsi:nil="true"/><typ:disconnectReason xsi:nil="true"/><typ:clliCode xsi:nil="true"/><typ:nativeFlag>true</typ:nativeFlag><typ:telephoneNumber>ns3:TelephoneNumberItem</typ:telephoneNumber><typ:portEligible>true</typ:portEligible><typ:transferEligible xsi:nil="true"/><typ:dispositionHistory xsi:nil="true"/><typ:portStatus xsi:nil="true"/><typ:originalCarrier xsi:nil="true"/></typ:item><typ:item xsi:type="typ:TelephoneNumberItem"><typ:location xsi:nil="true"/><typ:reservedForCustomer xsi:nil="true"/><typ:type xsi:nil="true"/><typ:assignedToCustomer xsi:nil="true"/><typ:market xsi:nil="true"/><typ:configuration xsi:nil="true"/><typ:id><typ:id>NDQwMjA0MTk0MQ==</typ:id></typ:id><typ:errorCode xsi:nil="true"/><typ:errorMessage xsi:nil="true"/><typ:requestId xsi:nil="true"/><typ:lineType xsi:nil="true"/><typ:disconnectReason xsi:nil="true"/><typ:clliCode xsi:nil="true"/><typ:nativeFlag>true</typ:nativeFlag><typ:telephoneNumber>4402023331</typ:telephoneNumber><typ:portEligible>true</typ:portEligible><typ:transferEligible xsi:nil="true"/><typ:dispositionHistory xsi:nil="true"/><typ:portStatus xsi:nil="true"/><typ:originalCarrier xsi:nil="true"/></typ:item><typ:item xsi:type="typ:TelephoneNumberItem"><typ:location xsi:nil="true"/><typ:reservedForCustomer xsi:nil="true"/><typ:type xsi:nil="true"/><typ:assignedToCustomer xsi:nil="true"/><typ:market xsi:nil="true"/><typ:configuration xsi:nil="true"/><typ:id><typ:id>NDQwMjA0MTk0MQ==</typ:id></typ:id><typ:errorCode xsi:nil="true"/><typ:errorMessage xsi:nil="true"/><typ:requestId xsi:nil="true"/><typ:lineType xsi:nil="true"/><typ:disconnectReason xsi:nil="true"/><typ:clliCode xsi:nil="true"/><typ:nativeFlag>true</typ:nativeFlag><typ:telephoneNumber>ns3:TelephoneNumberItem</typ:telephoneNumber><typ:portEligible>true</typ:portEligible><typ:transferEligible xsi:nil="true"/><typ:dispositionHistory xsi:nil="true"/><typ:portStatus xsi:nil="true"/><typ:originalCarrier xsi:nil="true"/></typ:item><typ:item xsi:type="typ:TelephoneNumberItem"><typ:location xsi:nil="true"/><typ:reservedForCustomer xsi:nil="true"/><typ:type xsi:nil="true"/><typ:assignedToCustomer xsi:nil="true"/><typ:market xsi:nil="true"/><typ:configuration xsi:nil="true"/><typ:id><typ:id>NDQwMjA0MTk0MQ==</typ:id></typ:id><typ:errorCode xsi:nil="true"/><typ:errorMessage xsi:nil="true"/><typ:requestId xsi:nil="true"/><typ:lineType xsi:nil="true"/><typ:disconnectReason xsi:nil="true"/><typ:clliCode xsi:nil="true"/><typ:nativeFlag>true</typ:nativeFlag><typ:telephoneNumber>4402023332</typ:telephoneNumber><typ:portEligible>true</typ:portEligible><typ:transferEligible xsi:nil="true"/><typ:dispositionHistory xsi:nil="true"/><typ:portStatus xsi:nil="true"/><typ:originalCarrier xsi:nil="true"/></typ:item><typ:item xsi:type="typ:TelephoneNumberItem"><typ:location xsi:nil="true"/><typ:reservedForCustomer xsi:nil="true"/><typ:type xsi:nil="true"/><typ:assignedToCustomer xsi:nil="true"/><typ:market xsi:nil="true"/><typ:configuration xsi:nil="true"/><typ:id><typ:id>NDQwMjA0MTk0MQ==</typ:id></typ:id><typ:errorCode xsi:nil="true"/><typ:errorMessage xsi:nil="true"/><typ:requestId xsi:nil="true"/><typ:lineType xsi:nil="true"/><typ:disconnectReason xsi:nil="true"/><typ:clliCode xsi:nil="true"/><typ:nativeFlag>true</typ:nativeFlag><typ:telephoneNumber>ns3:TelephoneNumberItem</typ:telephoneNumber><typ:portEligible>true</typ:portEligible><typ:transferEligible xsi:nil="true"/><typ:dispositionHistory xsi:nil="true"/><typ:portStatus xsi:nil="true"/><typ:originalCarrier xsi:nil="true"/></typ:item><typ:item xsi:type="typ:TelephoneNumberItem"><typ:location xsi:nil="true"/><typ:reservedForCustomer xsi:nil="true"/><typ:type xsi:nil="true"/><typ:assignedToCustomer xsi:nil="true"/><typ:market xsi:nil="true"/><typ:configuration xsi:nil="true"/><typ:id><typ:id>NDQwMjA0MTk0MQ==</typ:id></typ:id><typ:errorCode xsi:nil="true"/><typ:errorMessage xsi:nil="true"/><typ:requestId xsi:nil="true"/><typ:lineType xsi:nil="true"/><typ:disconnectReason xsi:nil="true"/><typ:clliCode xsi:nil="true"/><typ:nativeFlag>true</typ:nativeFlag><typ:telephoneNumber>4402023333</typ:telephoneNumber><typ:portEligible>true</typ:portEligible><typ:transferEligible xsi:nil="true"/><typ:dispositionHistory xsi:nil="true"/><typ:portStatus xsi:nil="true"/><typ:originalCarrier xsi:nil="true"/></typ:item></typ:items>  </validateItemReturn></validateItemResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+
+2017/10/27 11:05:06 Requested recieved at 2017-10-27 11:05:06.1688706 -0400 EDT
+URL: /InventoryService 
+Headers: [Cache-Control:[no-cache] Origin:[chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop] Accept:[*/*] Accept-Encoding:[gzip, deflate, br] Accept-Language:[en-US,en;q=0.8] Connection:[keep-alive] Postman-Token:[d4a277d3-1096-443d-6b19-8e1a10deaa02] Content-Type:[text/xml] Content-Length:[2474] User-Agent:[Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36]]
+Body: <soapenv:Envelope
+ xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <soapenv:Header>
+  <ns1:Security
+   soapenv:actor="http://schemas.xmlsoap.org/soap/actor/next"
+   soapenv:mustUnderstand="0"
+    xmlns:ns1="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+   <ns1:UsernameToken
+    soapenv:actor="http://schemas.xmlsoap.org/soap/actor/next"
+     soapenv:mustUnderstand="0">
+    <ns1:Username
+     soapenv:actor="http://schemas.xmlsoap.org/soap/actor/next"
+     soapenv:mustUnderstand="0">commwbusr</ns1:Username>
+    <ns1:Password
+     soapenv:actor="http://schemas.xmlsoap.org/soap/actor/next"
+   soapenv:mustUnderstand="0">Password1!</ns1:Password>
+   </ns1:UsernameToken>
+  </ns1:Security>
+  <ns2:requestHeader
+   soapenv:actor="http://schemas.xmlsoap.org/soap/actor/next"
+   soapenv:mustUnderstand="0"
+   xmlns:ns2="http://xml.comcast.com/types">
+   <ns2:timestamp>2017-02-02T17:28:33.807Z</ns2:timestamp>
+   <ns2:sourceSystemId>ESP-WORKBENCH</ns2:sourceSystemId>
+   <ns2:sourceSystemUserId>epcuser</ns2:sourceSystemUserId>
+   <ns2:sourceServerId>server1</ns2:sourceServerId>
+   <ns2:trackingId>101</ns2:trackingId>
+  </ns2:requestHeader>
+ </soapenv:Header>
+ <soapenv:Body>
+  <validateItem
+     xmlns="http://xml.comcast.com/inventory/services">
+   <request>
+    <ns3:itemsToValidate
+      xmlns:ns3="http://xml.comcast.com/inventory/types">
+     <ns3:item
+      xsi:type="ns3:TelephoneNumberItem">
+      <ns3:telephoneNumber>440202338098790709798798</ns3:telephoneNumber>
+     </ns3:item>
+     <ns3:item
+      xsi:type="ns3:TelephoneNumberItem">
+      <ns3:telephoneNumber>4402023331</ns3:telephoneNumber>
+     </ns3:item>
+      <ns3:item
+      xsi:type="ns3:TelephoneNumberItem">
+      <ns3:telephoneNumber>4402023332</ns3:telephoneNumber>
+     </ns3:item>
+      <ns3:item
+      xsi:type="ns3:TelephoneNumberItem">
+      <ns3:telephoneNumber>4402023333</ns3:telephoneNumber>
+     </ns3:item>
+    </ns3:itemsToValidate>
+    <ns4:location
+     xmlns:ns4="http://xml.comcast.com/inventory/types">
+     <ns4:rateCenter>RCFPORT</ns4:rateCenter>
+     <ns4:state>100</ns4:state>
+    </ns4:location>
+    <ns5:orderType xmlns:ns5="http://xml.comcast.com/inventory/types">SYMPHONY</ns5:orderType>
+   </request>
+  </validateItem>
+ </soapenv:Body>
+</soapenv:Envelope>
+Served By Operation: validateItem
+
+2017/10/27 11:05:06 Response sent at 2017-10-27 11:05:06.1788716 -0400 EDT
+Headers: [Content-Type:[text/xml]]
+Body: <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><SOAP-ENV:Header><SOAP-ENV:Header><typ:responseHeader xmlns:typ="http://xml.comcast.com/types"><typ:timestamp>2012-01-19T21:43:28-05:00</typ:timestamp><typ:trackingId>101</typ:trackingId>
+				</typ:responseHeader> </SOAP-ENV:Header></SOAP-ENV:Header><SOAP-ENV:Body><validateItemResponse xmlns="http://xml.comcast.com/inventory/services"><validateItemReturn><ns1:validatedForCustomer xmlns:ns1="http://xml.comcast.com/inventory/types"/><typ:items xmlns:typ="http://xml.comcast.com/inventory/types"><typ:item xsi:type="typ:TelephoneNumberItem"><typ:location xsi:nil="true"/><typ:reservedForCustomer xsi:nil="true"/><typ:type xsi:nil="true"/><typ:assignedToCustomer xsi:nil="true"/><typ:market xsi:nil="true"/><typ:configuration xsi:nil="true"/><typ:id><typ:id>NDQwMjA0MTk0MQ==</typ:id></typ:id><typ:errorCode xsi:nil="true"/><typ:errorMessage xsi:nil="true"/><typ:requestId xsi:nil="true"/><typ:lineType xsi:nil="true"/><typ:disconnectReason xsi:nil="true"/><typ:clliCode xsi:nil="true"/><typ:nativeFlag>true</typ:nativeFlag><typ:telephoneNumber>ns3:TelephoneNumberItem</typ:telephoneNumber><typ:portEligible>true</typ:portEligible><typ:transferEligible xsi:nil="true"/><typ:dispositionHistory xsi:nil="true"/><typ:portStatus xsi:nil="true"/><typ:originalCarrier xsi:nil="true"/></typ:item><typ:item xsi:type="typ:TelephoneNumberItem"><typ:location xsi:nil="true"/><typ:reservedForCustomer xsi:nil="true"/><typ:type xsi:nil="true"/><typ:assignedToCustomer xsi:nil="true"/><typ:market xsi:nil="true"/><typ:configuration xsi:nil="true"/><typ:id><typ:id>NDQwMjA0MTk0MQ==</typ:id></typ:id><typ:errorCode xsi:nil="true"/><typ:errorMessage xsi:nil="true"/><typ:requestId xsi:nil="true"/><typ:lineType xsi:nil="true"/><typ:disconnectReason xsi:nil="true"/><typ:clliCode xsi:nil="true"/><typ:nativeFlag>true</typ:nativeFlag><typ:telephoneNumber>ns3:TelephoneNumberItem</typ:telephoneNumber><typ:portEligible>true</typ:portEligible><typ:transferEligible xsi:nil="true"/><typ:dispositionHistory xsi:nil="true"/><typ:portStatus xsi:nil="true"/><typ:originalCarrier xsi:nil="true"/></typ:item><typ:item xsi:type="typ:TelephoneNumberItem"><typ:location xsi:nil="true"/><typ:reservedForCustomer xsi:nil="true"/><typ:type xsi:nil="true"/><typ:assignedToCustomer xsi:nil="true"/><typ:market xsi:nil="true"/><typ:configuration xsi:nil="true"/><typ:id><typ:id>NDQwMjA0MTk0MQ==</typ:id></typ:id><typ:errorCode xsi:nil="true"/><typ:errorMessage xsi:nil="true"/><typ:requestId xsi:nil="true"/><typ:lineType xsi:nil="true"/><typ:disconnectReason xsi:nil="true"/><typ:clliCode xsi:nil="true"/><typ:nativeFlag>true</typ:nativeFlag><typ:telephoneNumber>4402023331</typ:telephoneNumber><typ:portEligible>true</typ:portEligible><typ:transferEligible xsi:nil="true"/><typ:dispositionHistory xsi:nil="true"/><typ:portStatus xsi:nil="true"/><typ:originalCarrier xsi:nil="true"/></typ:item><typ:item xsi:type="typ:TelephoneNumberItem"><typ:location xsi:nil="true"/><typ:reservedForCustomer xsi:nil="true"/><typ:type xsi:nil="true"/><typ:assignedToCustomer xsi:nil="true"/><typ:market xsi:nil="true"/><typ:configuration xsi:nil="true"/><typ:id><typ:id>NDQwMjA0MTk0MQ==</typ:id></typ:id><typ:errorCode xsi:nil="true"/><typ:errorMessage xsi:nil="true"/><typ:requestId xsi:nil="true"/><typ:lineType xsi:nil="true"/><typ:disconnectReason xsi:nil="true"/><typ:clliCode xsi:nil="true"/><typ:nativeFlag>true</typ:nativeFlag><typ:telephoneNumber>4402023332</typ:telephoneNumber><typ:portEligible>true</typ:portEligible><typ:transferEligible xsi:nil="true"/><typ:dispositionHistory xsi:nil="true"/><typ:portStatus xsi:nil="true"/><typ:originalCarrier xsi:nil="true"/></typ:item><typ:item xsi:type="typ:TelephoneNumberItem"><typ:location xsi:nil="true"/><typ:reservedForCustomer xsi:nil="true"/><typ:type xsi:nil="true"/><typ:assignedToCustomer xsi:nil="true"/><typ:market xsi:nil="true"/><typ:configuration xsi:nil="true"/><typ:id><typ:id>NDQwMjA0MTk0MQ==</typ:id></typ:id><typ:errorCode xsi:nil="true"/><typ:errorMessage xsi:nil="true"/><typ:requestId xsi:nil="true"/><typ:lineType xsi:nil="true"/><typ:disconnectReason xsi:nil="true"/><typ:clliCode xsi:nil="true"/><typ:nativeFlag>true</typ:nativeFlag><typ:telephoneNumber>4402023332</typ:telephoneNumber><typ:portEligible>true</typ:portEligible><typ:transferEligible xsi:nil="true"/><typ:dispositionHistory xsi:nil="true"/><typ:portStatus xsi:nil="true"/><typ:originalCarrier xsi:nil="true"/></typ:item><typ:item xsi:type="typ:TelephoneNumberItem"><typ:location xsi:nil="true"/><typ:reservedForCustomer xsi:nil="true"/><typ:type xsi:nil="true"/><typ:assignedToCustomer xsi:nil="true"/><typ:market xsi:nil="true"/><typ:configuration xsi:nil="true"/><typ:id><typ:id>NDQwMjA0MTk0MQ==</typ:id></typ:id><typ:errorCode xsi:nil="true"/><typ:errorMessage xsi:nil="true"/><typ:requestId xsi:nil="true"/><typ:lineType xsi:nil="true"/><typ:disconnectReason xsi:nil="true"/><typ:clliCode xsi:nil="true"/><typ:nativeFlag>true</typ:nativeFlag><typ:telephoneNumber>ns3:TelephoneNumberItem</typ:telephoneNumber><typ:portEligible>true</typ:portEligible><typ:transferEligible xsi:nil="true"/><typ:dispositionHistory xsi:nil="true"/><typ:portStatus xsi:nil="true"/><typ:originalCarrier xsi:nil="true"/></typ:item><typ:item xsi:type="typ:TelephoneNumberItem"><typ:location xsi:nil="true"/><typ:reservedForCustomer xsi:nil="true"/><typ:type xsi:nil="true"/><typ:assignedToCustomer xsi:nil="true"/><typ:market xsi:nil="true"/><typ:configuration xsi:nil="true"/><typ:id><typ:id>NDQwMjA0MTk0MQ==</typ:id></typ:id><typ:errorCode xsi:nil="true"/><typ:errorMessage xsi:nil="true"/><typ:requestId xsi:nil="true"/><typ:lineType xsi:nil="true"/><typ:disconnectReason xsi:nil="true"/><typ:clliCode xsi:nil="true"/><typ:nativeFlag>true</typ:nativeFlag><typ:telephoneNumber>4402023333</typ:telephoneNumber><typ:portEligible>true</typ:portEligible><typ:transferEligible xsi:nil="true"/><typ:dispositionHistory xsi:nil="true"/><typ:portStatus xsi:nil="true"/><typ:originalCarrier xsi:nil="true"/></typ:item></typ:items>  </validateItemReturn></validateItemResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+
+2017/11/15 05:26:36 Requested recieved at 2017-11-15 05:26:36.7488839 -0500 EST
+URL: /InventoryService 
+Headers: [Content-Length:[2474] User-Agent:[Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36] Cache-Control:[no-cache] Postman-Token:[5823e74b-7451-25bf-29c1-e66f94292ce3] Accept:[*/*] Accept-Encoding:[gzip, deflate, br] Connection:[keep-alive] Accept-Language:[en-US,en;q=0.8] Origin:[chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop] Content-Type:[text/xml]]
+Body: <soapenv:Envelope
+ xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <soapenv:Header>
+  <ns1:Security
+   soapenv:actor="http://schemas.xmlsoap.org/soap/actor/next"
+   soapenv:mustUnderstand="0"
+    xmlns:ns1="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+   <ns1:UsernameToken
+    soapenv:actor="http://schemas.xmlsoap.org/soap/actor/next"
+     soapenv:mustUnderstand="0">
+    <ns1:Username
+     soapenv:actor="http://schemas.xmlsoap.org/soap/actor/next"
+     soapenv:mustUnderstand="0">commwbusr</ns1:Username>
+    <ns1:Password
+     soapenv:actor="http://schemas.xmlsoap.org/soap/actor/next"
+   soapenv:mustUnderstand="0">Password1!</ns1:Password>
+   </ns1:UsernameToken>
+  </ns1:Security>
+  <ns2:requestHeader
+   soapenv:actor="http://schemas.xmlsoap.org/soap/actor/next"
+   soapenv:mustUnderstand="0"
+   xmlns:ns2="http://xml.comcast.com/types">
+   <ns2:timestamp>2017-02-02T17:28:33.807Z</ns2:timestamp>
+   <ns2:sourceSystemId>ESP-WORKBENCH</ns2:sourceSystemId>
+   <ns2:sourceSystemUserId>epcuser</ns2:sourceSystemUserId>
+   <ns2:sourceServerId>server1</ns2:sourceServerId>
+   <ns2:trackingId>101</ns2:trackingId>
+  </ns2:requestHeader>
+ </soapenv:Header>
+ <soapenv:Body>
+  <validateItem
+     xmlns="http://xml.comcast.com/inventory/services">
+   <request>
+    <ns3:itemsToValidate
+      xmlns:ns3="http://xml.comcast.com/inventory/types">
+     <ns3:item
+      xsi:type="ns3:TelephoneNumberItem">
+      <ns3:telephoneNumber>440202338098790709798798</ns3:telephoneNumber>
+     </ns3:item>
+     <ns3:item
+      xsi:type="ns3:TelephoneNumberItem">
+      <ns3:telephoneNumber>4402023331</ns3:telephoneNumber>
+     </ns3:item>
+      <ns3:item
+      xsi:type="ns3:TelephoneNumberItem">
+      <ns3:telephoneNumber>4402023332</ns3:telephoneNumber>
+     </ns3:item>
+      <ns3:item
+      xsi:type="ns3:TelephoneNumberItem">
+      <ns3:telephoneNumber>4402023333</ns3:telephoneNumber>
+     </ns3:item>
+    </ns3:itemsToValidate>
+    <ns4:location
+     xmlns:ns4="http://xml.comcast.com/inventory/types">
+     <ns4:rateCenter>RCFPORT</ns4:rateCenter>
+     <ns4:state>100</ns4:state>
+    </ns4:location>
+    <ns5:orderType xmlns:ns5="http://xml.comcast.com/inventory/types">SYMPHONY</ns5:orderType>
+   </request>
+  </validateItem>
+ </soapenv:Body>
+</soapenv:Envelope>
+Served By Operation: validateItem
+
+2017/11/15 05:26:36 Response sent at 2017-11-15 05:26:36.7878878 -0500 EST
+Headers: [Content-Type:[text/xml]]
+Body: <?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <SOAP-ENV:Header>
+      <SOAP-ENV:Header>
+         <typ:responseHeader xmlns:typ="http://xml.comcast.com/types">
+            <typ:timestamp>2012-01-19T21:43:28-05:00</typ:timestamp>
+            <typ:trackingId>101</typ:trackingId>
+         </typ:responseHeader>
+      </SOAP-ENV:Header>
+   </SOAP-ENV:Header>
+   <SOAP-ENV:Body>
+      <validateItemResponse xmlns="http://xml.comcast.com/inventory/services">
+         <validateItemReturn>
+            <ns1:validatedForCustomer xmlns:ns1="http://xml.comcast.com/inventory/types" />
+            <typ:items xmlns:typ="http://xml.comcast.com/inventory/types"><typ:item xsi:type="typ:TelephoneNumberItem"><typ:location xsi:nil="true"/><typ:reservedForCustomer xsi:nil="true"/><typ:type xsi:nil="true"/><typ:assignedToCustomer xsi:nil="true"/><typ:market xsi:nil="true"/><typ:configuration xsi:nil="true"/><typ:id><typ:id>NDQwMjA0MTk0MQ==</typ:id></typ:id><typ:errorCode xsi:nil="true"/><typ:errorMessage xsi:nil="true"/><typ:requestId xsi:nil="true"/><typ:lineType xsi:nil="true"/><typ:disconnectReason xsi:nil="true"/><typ:clliCode xsi:nil="true"/><typ:nativeFlag>true</typ:nativeFlag><typ:telephoneNumber>440202338098790709798798</typ:telephoneNumber><typ:portEligible>true</typ:portEligible><typ:transferEligible xsi:nil="true"/><typ:dispositionHistory xsi:nil="true"/><typ:portStatus xsi:nil="true"/><typ:originalCarrier xsi:nil="true"/></typ:item><typ:item xsi:type="typ:TelephoneNumberItem"><typ:location xsi:nil="true"/><typ:reservedForCustomer xsi:nil="true"/><typ:type xsi:nil="true"/><typ:assignedToCustomer xsi:nil="true"/><typ:market xsi:nil="true"/><typ:configuration xsi:nil="true"/><typ:id><typ:id>NDQwMjA0MTk0MQ==</typ:id></typ:id><typ:errorCode xsi:nil="true"/><typ:errorMessage xsi:nil="true"/><typ:requestId xsi:nil="true"/><typ:lineType xsi:nil="true"/><typ:disconnectReason xsi:nil="true"/><typ:clliCode xsi:nil="true"/><typ:nativeFlag>true</typ:nativeFlag><typ:telephoneNumber>4402023331</typ:telephoneNumber><typ:portEligible>true</typ:portEligible><typ:transferEligible xsi:nil="true"/><typ:dispositionHistory xsi:nil="true"/><typ:portStatus xsi:nil="true"/><typ:originalCarrier xsi:nil="true"/></typ:item><typ:item xsi:type="typ:TelephoneNumberItem"><typ:location xsi:nil="true"/><typ:reservedForCustomer xsi:nil="true"/><typ:type xsi:nil="true"/><typ:assignedToCustomer xsi:nil="true"/><typ:market xsi:nil="true"/><typ:configuration xsi:nil="true"/><typ:id><typ:id>NDQwMjA0MTk0MQ==</typ:id></typ:id><typ:errorCode xsi:nil="true"/><typ:errorMessage xsi:nil="true"/><typ:requestId xsi:nil="true"/><typ:lineType xsi:nil="true"/><typ:disconnectReason xsi:nil="true"/><typ:clliCode xsi:nil="true"/><typ:nativeFlag>true</typ:nativeFlag><typ:telephoneNumber>4402023332</typ:telephoneNumber><typ:portEligible>true</typ:portEligible><typ:transferEligible xsi:nil="true"/><typ:dispositionHistory xsi:nil="true"/><typ:portStatus xsi:nil="true"/><typ:originalCarrier xsi:nil="true"/></typ:item><typ:item xsi:type="typ:TelephoneNumberItem"><typ:location xsi:nil="true"/><typ:reservedForCustomer xsi:nil="true"/><typ:type xsi:nil="true"/><typ:assignedToCustomer xsi:nil="true"/><typ:market xsi:nil="true"/><typ:configuration xsi:nil="true"/><typ:id><typ:id>NDQwMjA0MTk0MQ==</typ:id></typ:id><typ:errorCode xsi:nil="true"/><typ:errorMessage xsi:nil="true"/><typ:requestId xsi:nil="true"/><typ:lineType xsi:nil="true"/><typ:disconnectReason xsi:nil="true"/><typ:clliCode xsi:nil="true"/><typ:nativeFlag>true</typ:nativeFlag><typ:telephoneNumber>4402023333</typ:telephoneNumber><typ:portEligible>true</typ:portEligible><typ:transferEligible xsi:nil="true"/><typ:dispositionHistory xsi:nil="true"/><typ:portStatus xsi:nil="true"/><typ:originalCarrier xsi:nil="true"/></typ:item></typ:items>
+         </validateItemReturn>
+      </validateItemResponse>
+   </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+2017/11/15 07:17:10 Requested recieved at 2017-11-15 07:17:10.9782405 -0500 EST
+URL: /InventoryService 
+Headers: [Accept-Language:[en-US,en;q=0.8] Connection:[keep-alive] Cache-Control:[no-cache] Postman-Token:[f1a57d78-d270-ca48-444f-9f0e06cf7c15] Content-Type:[text/xml] Accept:[*/*] Accept-Encoding:[gzip, deflate, br] Content-Length:[2474] User-Agent:[Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36] Origin:[chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop]]
+Body: <soapenv:Envelope
+ xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <soapenv:Header>
+  <ns1:Security
+   soapenv:actor="http://schemas.xmlsoap.org/soap/actor/next"
+   soapenv:mustUnderstand="0"
+    xmlns:ns1="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+   <ns1:UsernameToken
+    soapenv:actor="http://schemas.xmlsoap.org/soap/actor/next"
+     soapenv:mustUnderstand="0">
+    <ns1:Username
+     soapenv:actor="http://schemas.xmlsoap.org/soap/actor/next"
+     soapenv:mustUnderstand="0">commwbusr</ns1:Username>
+    <ns1:Password
+     soapenv:actor="http://schemas.xmlsoap.org/soap/actor/next"
+   soapenv:mustUnderstand="0">Password1!</ns1:Password>
+   </ns1:UsernameToken>
+  </ns1:Security>
+  <ns2:requestHeader
+   soapenv:actor="http://schemas.xmlsoap.org/soap/actor/next"
+   soapenv:mustUnderstand="0"
+   xmlns:ns2="http://xml.comcast.com/types">
+   <ns2:timestamp>2017-02-02T17:28:33.807Z</ns2:timestamp>
+   <ns2:sourceSystemId>ESP-WORKBENCH</ns2:sourceSystemId>
+   <ns2:sourceSystemUserId>epcuser</ns2:sourceSystemUserId>
+   <ns2:sourceServerId>server1</ns2:sourceServerId>
+   <ns2:trackingId>101</ns2:trackingId>
+  </ns2:requestHeader>
+ </soapenv:Header>
+ <soapenv:Body>
+  <validateItem
+     xmlns="http://xml.comcast.com/inventory/services">
+   <request>
+    <ns3:itemsToValidate
+      xmlns:ns3="http://xml.comcast.com/inventory/types">
+     <ns3:item
+      xsi:type="ns3:TelephoneNumberItem">
+      <ns3:telephoneNumber>440202338098790709798798</ns3:telephoneNumber>
+     </ns3:item>
+     <ns3:item
+      xsi:type="ns3:TelephoneNumberItem">
+      <ns3:telephoneNumber>4402023331</ns3:telephoneNumber>
+     </ns3:item>
+      <ns3:item
+      xsi:type="ns3:TelephoneNumberItem">
+      <ns3:telephoneNumber>4402023332</ns3:telephoneNumber>
+     </ns3:item>
+      <ns3:item
+      xsi:type="ns3:TelephoneNumberItem">
+      <ns3:telephoneNumber>4402023333</ns3:telephoneNumber>
+     </ns3:item>
+    </ns3:itemsToValidate>
+    <ns4:location
+     xmlns:ns4="http://xml.comcast.com/inventory/types">
+     <ns4:rateCenter>RCFPORT</ns4:rateCenter>
+     <ns4:state>100</ns4:state>
+    </ns4:location>
+    <ns5:orderType xmlns:ns5="http://xml.comcast.com/inventory/types">SYMPHONY</ns5:orderType>
+   </request>
+  </validateItem>
+ </soapenv:Body>
+</soapenv:Envelope>
+Served By Operation: validateItem
+
+2017/11/15 07:17:10 Response sent at 2017-11-15 07:17:10.9862413 -0500 EST
+Headers: [Content-Type:[text/xml]]
+Body: <?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <SOAP-ENV:Header>
+      <SOAP-ENV:Header>
+         <typ:responseHeader xmlns:typ="http://xml.comcast.com/types">
+            <typ:timestamp>2012-01-19T21:43:28-05:00</typ:timestamp>
+            <typ:trackingId>101</typ:trackingId>
+         </typ:responseHeader>
+      </SOAP-ENV:Header>
+   </SOAP-ENV:Header>
+   <SOAP-ENV:Body>
+      <validateItemResponse xmlns="http://xml.comcast.com/inventory/services">
+         <validateItemReturn>
+            <ns1:validatedForCustomer xmlns:ns1="http://xml.comcast.com/inventory/types" />
+            <typ:items xmlns:typ="http://xml.comcast.com/inventory/types"><typ:item xsi:type="typ:TelephoneNumberItem"><typ:location xsi:nil="true"/><typ:reservedForCustomer xsi:nil="true"/><typ:type xsi:nil="true"/><typ:assignedToCustomer xsi:nil="true"/><typ:market xsi:nil="true"/><typ:configuration xsi:nil="true"/><typ:id><typ:id>NDQwMjA0MTk0MQ==</typ:id></typ:id><typ:errorCode xsi:nil="true"/><typ:errorMessage xsi:nil="true"/><typ:requestId xsi:nil="true"/><typ:lineType xsi:nil="true"/><typ:disconnectReason xsi:nil="true"/><typ:clliCode xsi:nil="true"/><typ:nativeFlag>true</typ:nativeFlag><typ:telephoneNumber>440202338098790709798798</typ:telephoneNumber><typ:portEligible>true</typ:portEligible><typ:transferEligible xsi:nil="true"/><typ:dispositionHistory xsi:nil="true"/><typ:portStatus xsi:nil="true"/><typ:originalCarrier xsi:nil="true"/></typ:item><typ:item xsi:type="typ:TelephoneNumberItem"><typ:location xsi:nil="true"/><typ:reservedForCustomer xsi:nil="true"/><typ:type xsi:nil="true"/><typ:assignedToCustomer xsi:nil="true"/><typ:market xsi:nil="true"/><typ:configuration xsi:nil="true"/><typ:id><typ:id>NDQwMjA0MTk0MQ==</typ:id></typ:id><typ:errorCode xsi:nil="true"/><typ:errorMessage xsi:nil="true"/><typ:requestId xsi:nil="true"/><typ:lineType xsi:nil="true"/><typ:disconnectReason xsi:nil="true"/><typ:clliCode xsi:nil="true"/><typ:nativeFlag>true</typ:nativeFlag><typ:telephoneNumber>4402023331</typ:telephoneNumber><typ:portEligible>true</typ:portEligible><typ:transferEligible xsi:nil="true"/><typ:dispositionHistory xsi:nil="true"/><typ:portStatus xsi:nil="true"/><typ:originalCarrier xsi:nil="true"/></typ:item><typ:item xsi:type="typ:TelephoneNumberItem"><typ:location xsi:nil="true"/><typ:reservedForCustomer xsi:nil="true"/><typ:type xsi:nil="true"/><typ:assignedToCustomer xsi:nil="true"/><typ:market xsi:nil="true"/><typ:configuration xsi:nil="true"/><typ:id><typ:id>NDQwMjA0MTk0MQ==</typ:id></typ:id><typ:errorCode xsi:nil="true"/><typ:errorMessage xsi:nil="true"/><typ:requestId xsi:nil="true"/><typ:lineType xsi:nil="true"/><typ:disconnectReason xsi:nil="true"/><typ:clliCode xsi:nil="true"/><typ:nativeFlag>true</typ:nativeFlag><typ:telephoneNumber>4402023332</typ:telephoneNumber><typ:portEligible>true</typ:portEligible><typ:transferEligible xsi:nil="true"/><typ:dispositionHistory xsi:nil="true"/><typ:portStatus xsi:nil="true"/><typ:originalCarrier xsi:nil="true"/></typ:item><typ:item xsi:type="typ:TelephoneNumberItem"><typ:location xsi:nil="true"/><typ:reservedForCustomer xsi:nil="true"/><typ:type xsi:nil="true"/><typ:assignedToCustomer xsi:nil="true"/><typ:market xsi:nil="true"/><typ:configuration xsi:nil="true"/><typ:id><typ:id>NDQwMjA0MTk0MQ==</typ:id></typ:id><typ:errorCode xsi:nil="true"/><typ:errorMessage xsi:nil="true"/><typ:requestId xsi:nil="true"/><typ:lineType xsi:nil="true"/><typ:disconnectReason xsi:nil="true"/><typ:clliCode xsi:nil="true"/><typ:nativeFlag>true</typ:nativeFlag><typ:telephoneNumber>4402023333</typ:telephoneNumber><typ:portEligible>true</typ:portEligible><typ:transferEligible xsi:nil="true"/><typ:dispositionHistory xsi:nil="true"/><typ:portStatus xsi:nil="true"/><typ:originalCarrier xsi:nil="true"/></typ:item></typ:items>
+         </validateItemReturn>
+      </validateItemResponse>
+   </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+2017/11/15 07:19:01 Requested recieved at 2017-11-15 07:19:01.1302546 -0500 EST
+URL: /InventoryService 
+Headers: [Cache-Control:[no-cache] Postman-Token:[dc3ac9e8-9fc9-deb2-1d0e-deb4aaefa631] Accept:[*/*] Accept-Encoding:[gzip, deflate, br] User-Agent:[Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36] Origin:[chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop] Content-Type:[text/xml] Accept-Language:[en-US,en;q=0.8] Connection:[keep-alive] Content-Length:[2474]]
+Body: <soapenv:Envelope
+ xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <soapenv:Header>
+  <ns1:Security
+   soapenv:actor="http://schemas.xmlsoap.org/soap/actor/next"
+   soapenv:mustUnderstand="0"
+    xmlns:ns1="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+   <ns1:UsernameToken
+    soapenv:actor="http://schemas.xmlsoap.org/soap/actor/next"
+     soapenv:mustUnderstand="0">
+    <ns1:Username
+     soapenv:actor="http://schemas.xmlsoap.org/soap/actor/next"
+     soapenv:mustUnderstand="0">commwbusr</ns1:Username>
+    <ns1:Password
+     soapenv:actor="http://schemas.xmlsoap.org/soap/actor/next"
+   soapenv:mustUnderstand="0">Password1!</ns1:Password>
+   </ns1:UsernameToken>
+  </ns1:Security>
+  <ns2:requestHeader
+   soapenv:actor="http://schemas.xmlsoap.org/soap/actor/next"
+   soapenv:mustUnderstand="0"
+   xmlns:ns2="http://xml.comcast.com/types">
+   <ns2:timestamp>2017-02-02T17:28:33.807Z</ns2:timestamp>
+   <ns2:sourceSystemId>ESP-WORKBENCH</ns2:sourceSystemId>
+   <ns2:sourceSystemUserId>epcuser</ns2:sourceSystemUserId>
+   <ns2:sourceServerId>server1</ns2:sourceServerId>
+   <ns2:trackingId>101</ns2:trackingId>
+  </ns2:requestHeader>
+ </soapenv:Header>
+ <soapenv:Body>
+  <validateItem
+     xmlns="http://xml.comcast.com/inventory/services">
+   <request>
+    <ns3:itemsToValidate
+      xmlns:ns3="http://xml.comcast.com/inventory/types">
+     <ns3:item
+      xsi:type="ns3:TelephoneNumberItem">
+      <ns3:telephoneNumber>440202338098790709798798</ns3:telephoneNumber>
+     </ns3:item>
+     <ns3:item
+      xsi:type="ns3:TelephoneNumberItem">
+      <ns3:telephoneNumber>4402023331</ns3:telephoneNumber>
+     </ns3:item>
+      <ns3:item
+      xsi:type="ns3:TelephoneNumberItem">
+      <ns3:telephoneNumber>4402023332</ns3:telephoneNumber>
+     </ns3:item>
+      <ns3:item
+      xsi:type="ns3:TelephoneNumberItem">
+      <ns3:telephoneNumber>4402023333</ns3:telephoneNumber>
+     </ns3:item>
+    </ns3:itemsToValidate>
+    <ns4:location
+     xmlns:ns4="http://xml.comcast.com/inventory/types">
+     <ns4:rateCenter>RCFPORT</ns4:rateCenter>
+     <ns4:state>100</ns4:state>
+    </ns4:location>
+    <ns5:orderType xmlns:ns5="http://xml.comcast.com/inventory/types">SYMPHONY</ns5:orderType>
+   </request>
+  </validateItem>
+ </soapenv:Body>
+</soapenv:Envelope>
+Served By Operation: validateItem
+
+2017/11/15 07:19:01 Response sent at 2017-11-15 07:19:01.1382554 -0500 EST
+Headers: [Content-Type:[text/xml]]
+Body: <?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <SOAP-ENV:Header>
+      <SOAP-ENV:Header>
+         <typ:responseHeader xmlns:typ="http://xml.comcast.com/types">
+            <typ:timestamp>2012-01-19T21:43:28-05:00</typ:timestamp>
+            <typ:trackingId>101</typ:trackingId>
+         </typ:responseHeader>
+      </SOAP-ENV:Header>
+   </SOAP-ENV:Header>
+   <SOAP-ENV:Body>
+      <validateItemResponse xmlns="http://xml.comcast.com/inventory/services">
+         <validateItemReturn>
+            <ns1:validatedForCustomer xmlns:ns1="http://xml.comcast.com/inventory/types" />
+            <typ:items xmlns:typ="http://xml.comcast.com/inventory/types"><typ:item xsi:type="typ:TelephoneNumberItem"><typ:location xsi:nil="true"/><typ:reservedForCustomer xsi:nil="true"/><typ:type xsi:nil="true"/><typ:assignedToCustomer xsi:nil="true"/><typ:market xsi:nil="true"/><typ:configuration xsi:nil="true"/><typ:id><typ:id>NDQwMjA0MTk0MQ==</typ:id></typ:id><typ:errorCode xsi:nil="true"/><typ:errorMessage xsi:nil="true"/><typ:requestId xsi:nil="true"/><typ:lineType xsi:nil="true"/><typ:disconnectReason xsi:nil="true"/><typ:clliCode xsi:nil="true"/><typ:nativeFlag>true</typ:nativeFlag><typ:telephoneNumber>440202338098790709798798</typ:telephoneNumber><typ:portEligible>true</typ:portEligible><typ:transferEligible xsi:nil="true"/><typ:dispositionHistory xsi:nil="true"/><typ:portStatus xsi:nil="true"/><typ:originalCarrier xsi:nil="true"/></typ:item><typ:item xsi:type="typ:TelephoneNumberItem"><typ:location xsi:nil="true"/><typ:reservedForCustomer xsi:nil="true"/><typ:type xsi:nil="true"/><typ:assignedToCustomer xsi:nil="true"/><typ:market xsi:nil="true"/><typ:configuration xsi:nil="true"/><typ:id><typ:id>NDQwMjA0MTk0MQ==</typ:id></typ:id><typ:errorCode xsi:nil="true"/><typ:errorMessage xsi:nil="true"/><typ:requestId xsi:nil="true"/><typ:lineType xsi:nil="true"/><typ:disconnectReason xsi:nil="true"/><typ:clliCode xsi:nil="true"/><typ:nativeFlag>true</typ:nativeFlag><typ:telephoneNumber>4402023331</typ:telephoneNumber><typ:portEligible>true</typ:portEligible><typ:transferEligible xsi:nil="true"/><typ:dispositionHistory xsi:nil="true"/><typ:portStatus xsi:nil="true"/><typ:originalCarrier xsi:nil="true"/></typ:item><typ:item xsi:type="typ:TelephoneNumberItem"><typ:location xsi:nil="true"/><typ:reservedForCustomer xsi:nil="true"/><typ:type xsi:nil="true"/><typ:assignedToCustomer xsi:nil="true"/><typ:market xsi:nil="true"/><typ:configuration xsi:nil="true"/><typ:id><typ:id>NDQwMjA0MTk0MQ==</typ:id></typ:id><typ:errorCode xsi:nil="true"/><typ:errorMessage xsi:nil="true"/><typ:requestId xsi:nil="true"/><typ:lineType xsi:nil="true"/><typ:disconnectReason xsi:nil="true"/><typ:clliCode xsi:nil="true"/><typ:nativeFlag>true</typ:nativeFlag><typ:telephoneNumber>4402023332</typ:telephoneNumber><typ:portEligible>true</typ:portEligible><typ:transferEligible xsi:nil="true"/><typ:dispositionHistory xsi:nil="true"/><typ:portStatus xsi:nil="true"/><typ:originalCarrier xsi:nil="true"/></typ:item><typ:item xsi:type="typ:TelephoneNumberItem"><typ:location xsi:nil="true"/><typ:reservedForCustomer xsi:nil="true"/><typ:type xsi:nil="true"/><typ:assignedToCustomer xsi:nil="true"/><typ:market xsi:nil="true"/><typ:configuration xsi:nil="true"/><typ:id><typ:id>NDQwMjA0MTk0MQ==</typ:id></typ:id><typ:errorCode xsi:nil="true"/><typ:errorMessage xsi:nil="true"/><typ:requestId xsi:nil="true"/><typ:lineType xsi:nil="true"/><typ:disconnectReason xsi:nil="true"/><typ:clliCode xsi:nil="true"/><typ:nativeFlag>true</typ:nativeFlag><typ:telephoneNumber>4402023333</typ:telephoneNumber><typ:portEligible>true</typ:portEligible><typ:transferEligible xsi:nil="true"/><typ:dispositionHistory xsi:nil="true"/><typ:portStatus xsi:nil="true"/><typ:originalCarrier xsi:nil="true"/></typ:item></typ:items>
+         </validateItemReturn>
+      </validateItemResponse>
+   </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
